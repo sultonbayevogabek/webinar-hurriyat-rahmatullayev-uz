@@ -89,31 +89,6 @@ body {
   }
 }
 
-.gift-container {
-  position: relative;
-  cursor: pointer;
-  animation: shake 0.6s ease-in-out infinite;
-}
-
-.gift {
-  transition: transform 0.3s ease-in-out;
-}
-
-@keyframes shake {
-  0%, 100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-5deg);
-  }
-  50% {
-    transform: rotate(5deg);
-  }
-  75% {
-    transform: rotate(-3deg);
-  }
-}
-
 /* Running text */
 @keyframes scroll {
   from {
