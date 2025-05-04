@@ -9,7 +9,7 @@
     joinButton.disabled = true;
     await statistics.onClickTgBtn();
     joinButton.disabled = false;
-    window.location.href = 'https://t.me/+NOvfqVTfRiFlYWE6';
+    window.location.href = 'https://t.me/+3Gy11WMjQ403NDgy';
   })
 
   if (user && user?.name && user?.phone && user?.time) {
@@ -26,7 +26,7 @@
     formData.append('utm_medium', utmParams.utmMedium);
     formData.append('utm_campaign', utmParams.utmCampaign);
 
-    let response = await fetch('https://script.google.com/macros/s/AKfycbzF1kIQg1jwz-0ZOzwE0FWO7O9XSC98HpIEwqwRiKLDayOoN3USiZBepaa-VI7lNKuc/exec', {
+    let response = await fetch('https://script.google.com/macros/s/AKfycbwF7HJyb9ttMcsL9TtooqKmHgXV2p8QOnVwwCB57bCRkgbJAbGLEP_KGFUKt1tK4fdQ/exec', {
       method: 'POST',
       body: formData
     })
