@@ -46,12 +46,12 @@ body {
 
 .main-button {
   background: linear-gradient(90deg, #E74040 0%, #A31A1A 52.88%, #E74040 100%);
-  @apply font-semibold flex items-center justify-center relative overflow-hidden rounded-full h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[28px] 800px:text-[36px] 1100px:text-[40px] cursor-pointer;
+  @apply font-semibold flex items-center justify-center relative overflow-hidden rounded-full h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[24px] 800px:text-[36px] 1100px:text-[40px] cursor-pointer;
 }
 
 .tg-button {
   background: #0088cc;
-  @apply font-semibold flex items-center justify-center relative overflow-hidden rounded-full h-[70px] 800px:h-[80px] 1200px:h-[90px] text-[#fff] text-[28px] 800px:text-[36px] 1100px:text-[40px] cursor-pointer;
+  @apply font-semibold flex items-center justify-center relative overflow-hidden rounded-full h-[70px] 800px:h-[80px] 1200px:h-[90px] text-[#fff] text-[24px] 800px:text-[36px] 1100px:text-[40px] cursor-pointer;
 }
 
 .submit-button {
