@@ -19,13 +19,22 @@
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="x-dns-prefetch-control" content="on">
 
+  <!-- Preconnect va preload -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="css/styles.css" as="style">
+  <link rel="preload" href="img/check.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="img/timer.webp" as="image" type="image/webp">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </noscript>
 
   <meta name="facebook-domain-verification" content="znhpr4cp15kdrdzwg77i8kqg7kwjvm" />
 
-  <link rel="stylesheet" href="css/styles.css">
   <title>Hurriyat Rahmatullayeva</title>
 </head>
 <body class="flex flex-col min-h-screen overflow-x-hidden">
